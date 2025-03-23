@@ -3,92 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to CTE IT Shop</title>
-    <style>
-        /* General Page Styling */
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background: linear-gradient(135deg, #f4eea3, #a3d594);
-            color: #333;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            transition: opacity 1s ease-in-out;
-        }
-
-        h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-
-        /* Button Styling */
-        .btn-fm {
-            background: #78560f;
-            color: white;
-            border: none;
-            padding: 12px 25px;
-            font-size: 1.2em;
-            margin: 10px;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-        
-        .btn-sm {
-            background: #1b6810;
-            color: white;
-            border: none;
-            padding: 12px 25px;
-            font-size: 1.2em;
-            margin: 10px;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-        .btn-fm:hover {
-            background: #513908;
-            transform: scale(1.1);
-        }
-        
-        .btn-sm:hover {
-            background: #254e0f;
-            transform: scale(1.1);
-        }
-
-        .fade-out {
-            opacity: 0;
-        }
-        
-        /* Responsive Design */
-        @media (max-width: 600px) {
-            h2 {
-                /*font-size: 1.5em;*/
-                font-size: 1.2em;
-            }
-            .btn {
-                font-size: 1em;
-                padding: 10px 20px;
-            }
-        }
-
-    </style>
-</head>
-<body>
-
-    <h2>Are you Freshman or Sophomore?</h2>
-    
-    <button class="btn-fm" onclick="redirectTo('https://mrrexxwei.github.io/freshman/')"> Freshman &nbsp;&nbsp; </button>
-    <button class="btn-sm" onclick="redirectTo('https://mrrexxwei.github.io/sophomore/')" >Sophomore&nbsp;</button>
-
+    <title>Taconic IT Shop</title>
+    <link href="css/index.css" rel="stylesheet">
     <script>
         function redirectTo(url) {
             window.location.href = url;
         }
     </script>
+</head>
+
+<body>
+    <h2>Welcome to Taconic IT Shop</h2>
+    <h3>Please choose your grade</h3>
+    <button class="btn-fm" onclick="redirectTo('freshman.html')"> Freshman &nbsp;&nbsp; </button>
+    <button class="btn-sm" onclick="redirectTo('sophomore.html')" >Sophomore&nbsp;</button>
 
 </body>
 </html>
