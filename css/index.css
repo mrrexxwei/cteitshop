@@ -25,8 +25,8 @@
         /* Button Styling */
         .btn-fm {
             background: #78560f;
-/*             background: #858076; */
-            color: gray;
+            /* background: #858076; */
+            color: white;
             border: none;
             padding: 12px 25px;
             font-size: 1.2em;
@@ -78,4 +78,5 @@
             }
 
         }
+
 
