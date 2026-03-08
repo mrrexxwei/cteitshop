@@ -15,6 +15,10 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/bootstrap-icons.css" rel="stylesheet">
         <link href="css/gold-week.css" rel="stylesheet">      
+        <style>
+            /* helper class to hide elements */
+            .is-hidden { display: none !important; }
+        </style>
     </head>
     
     <body id="top">
@@ -136,21 +140,23 @@
 
                 <div class="container">
                     <div class="row">
-
                         <div class="col-12">
                             <div class="tab-content" id="myTabContent">
-                                <!-- Monday Pane 01 -->
+                                
+                                <!-- Monday (Weekday 01) Pane -->
                                 <div class="tab-pane fade show active" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
                                     <div class="row">
                                         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                                             <div class="custom-block bg-white shadow-lg">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Monday</h5>
-                                                        <p class="mb-0" id="date-of-monday">Today is Nov 24.</p>
+                                                <!--<a href="topics-detail.html">-->
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Monday</h5>
+                                                            <p class="mb-0" id="date-of-monday">Today is Nov 10.</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <img src="images/topics/mon.png" class="custom-block-image img-fluid" alt="">
+                                                    <img src="images/topics/mon.png" class="custom-block-image img-fluid" alt="">
+                                                <!--</a>-->
                                             </div>
                                         </div>
 
@@ -159,14 +165,15 @@
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">Content</h5>
-                                                        <p class="mb-0"><b>Check the file ➡️ </b></p>
+                                                        <p class="mb-0">Check out the file➡️</p>
                                                     </div>
                                                 </div>
-                                                <img src="images/topics/c01.png" class="custom-block-image img-fluid" alt="">
+                                                <img src="images/topics/book.png" class="custom-block-image img-fluid" alt="">
                                             </div>
                                         </div>
+
                                         <div class="col-lg-4 col-md-6 col-12">
-                                            <div class="custom-block bg-white shadow-lg">
+                                            <div class="custom-block bg-white shadow-lg mon-bf">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">File &amp; Link</h5>
@@ -176,183 +183,193 @@
                                                 <img src="images/topics/soon.png" class="custom-block-image img-fluid" alt="">
                                             </div>
                                             
-                                            <!-- <div class="custom-block bg-white shadow-lg">
+                                            <div class="custom-block bg-white shadow-lg mon-af is-hidden">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">File &amp; Link</h5>
                                                         <p class="mb-0">⬇️Click to open file⬇️</p>
                                                     </div>
                                                 </div>
-                                                <a href="https://docs.google.com/presentation/d/1r2vGkAlW4ao1GJGLzl2_-kYCPmhEt7Pu/edit?usp=drive_link&ouid=116906012495247006616&rtpof=true&sd=true"><img src="images/topics/ppt01.png" class="custom-block-image img-fluid" alt="">
+                                                <a id ="mon-link" href=""><img src="images/topics/ppt01.png" class="custom-block-image img-fluid" alt="">
                                                 </a>
-                                            </div> -->
+                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
-                                <!-- end of Mon 01 Pane -->
+                                <!-- end of Monday Pane -->
                                 
-                                <!--=== Tuesday Pane 02 ===-->
+                                <!-- Tuesday (02) Pane -->
                                 <!--<div class="tab-pane fade show active" id="marketing-tab-pane" role="tabpanel" aria-labelledby="design-tab" tabindex="0">-->
                                 <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="marketing-tab" tabindex="0">
                                     <div class="row">
                                         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                                             <div class="custom-block bg-white shadow-lg">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Tuesday</h5>
-                                                        <p class="mb-0" id="date-of-tuesday">Today is Nov 25.</p>
+                                                <!--<a href="topics-detail.html">-->
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Tuesday</h5>
+                                                            <p class="mb-0" id="date-of-tuesday">Today is Nov 11.</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <img src="images/topics/tue.png" class="custom-block-image img-fluid" alt="">
+                                                    <img src="images/topics/tue.png" class="custom-block-image img-fluid" alt="">
+                                                <!--</a>-->
                                             </div>
                                         </div>
 
                                         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                                             <div class="custom-block bg-white shadow-lg">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Content</h5>
-                                                        <p class="mb-0"><b>Check the file ➡️ </b></p>
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Content</h5>
+                                                            <p class="mb-0">Check out the file➡️</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <img src="images/topics/c02.png" class="custom-block-image img-fluid" alt="">
+                                                    <img src="images/topics/book.png" class="custom-block-image img-fluid" alt="">
                                             </div>
                                         </div>
 
                                         <div class="col-lg-4 col-md-6 col-12">
-                                            <!-- <div class="custom-block bg-white shadow-lg">
+                                            <div class="custom-block bg-white shadow-lg tue-bf">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">File &amp; Link</h5>
-                                                        <p class="mb-0">File will be ready soon.</p>
+                                                        <p class="mb-0">Click to open file (if available)</p>
                                                     </div>
                                                 </div>
                                                 <img src="images/topics/soon.png" class="custom-block-image img-fluid" alt="">
-                                            </div>  -->
+                                            </div>
                                             
-                                            <div class="custom-block bg-white shadow-lg">
+                                            <div class="custom-block bg-white shadow-lg tue-af is-hidden">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">File &amp; Link</h5>
                                                         <p class="mb-0">⬇️Click to open file⬇️</p>
                                                     </div>
                                                 </div>
-                                                <a href="https://docs.google.com/presentation/d/1ZSzN30U5hVi5dZmRQCSxvMTWUiEYUW4mQUrTGL8voJI/edit?usp=sharing"><img src="images/topics/ppt02.png" class="custom-block-image img-fluid" alt="">
+                                                <a id ="tue-link" href=""><img src="images/topics/ppt.png" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </div>
-                                <!-- end of Tue 02 Pane -->
+                                <!-- end of Tuesday Pane -->
                                 
-                                <!-- Wed Pane 03 -->
+                                <!-- Wed Pane -->
                                 <div class="tab-pane fade" id="finance-tab-pane" role="tabpanel" aria-labelledby="finance-tab" tabindex="0">
                                     <div class="row">
                                         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                                             <div class="custom-block bg-white shadow-lg">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Wednesday</h5>
-                                                        <p class="mb-0" id="date-of-wednesday">Today is Nov 26.</p>
+                                                <!--<a href="topics-detail.html">-->
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Wednesday</h5>
+                                                            <p class="mb-0" id="date-of-wednesday">Today is Nov 12.</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <img src="images/topics/wed.png" class="custom-block-image img-fluid" alt="">
+                                                    <img src="images/topics/wed.png" class="custom-block-image img-fluid" alt="">
+                                                <!--</a>-->
                                             </div>
                                         </div>
 
                                         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                                             <div class="custom-block bg-white shadow-lg">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Content</h5>
-                                                        <p class="mb-0"><b>Check the file ➡️ </b>
-                                                        </p>
+                                                <!--<a href="topics-detail.html">-->
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Content</h5>
+                                                            <p class="mb-0">Check out the file➡️</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <img src="images/topics/c03.png" class="custom-block-image img-fluid" alt="">
+                                                    <img src="images/topics/book.png" class="custom-block-image img-fluid" alt="">
+                                                <!--</a>-->
                                             </div>
                                         </div>
 
                                         <div class="col-lg-4 col-md-6 col-12">
-                                            <!-- <div class="custom-block bg-white shadow-lg">
+                                            <div class="custom-block bg-white shadow-lg wed-bf">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">File &amp; Link</h5>
-                                                        <p class="mb-0">File will be ready soon.</p>
+                                                        <p class="mb-0">Click to open file (if available)</p>
                                                     </div>
                                                 </div>
                                                 <img src="images/topics/soon.png" class="custom-block-image img-fluid" alt="">
-                                            </div> -->
+                                            </div>
                                             
-                                            <div class="custom-block bg-white shadow-lg">
+                                            <div class="custom-block bg-white shadow-lg wed-af is-hidden">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">File &amp; Link</h5>
                                                         <p class="mb-0">⬇️Click to open file⬇️</p>
                                                     </div>
                                                 </div>
-                                                <a href="https://docs.google.com/presentation/d/1ZSzN30U5hVi5dZmRQCSxvMTWUiEYUW4mQUrTGL8voJI/edit?usp=sharing"><img src="images/topics/ppt03.png" class="custom-block-image img-fluid" alt="">
+                                                <a id ="wed-link" href=""><img src="images/topics/ppt03.png" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div> 
                                         </div>
                                     </div>
                                 </div>
-                                <!-- end of Wed 03 Pane -->
+                                <!-- end of Wed Pane -->
                                 
-                                <!-- Thur Pane 04 -->
+                                <!-- Thur 04 Pane -->
                                 <div class="tab-pane fade" id="music-tab-pane" role="tabpanel" aria-labelledby="music-tab" tabindex="0">
                                     <div class="row">
                                         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                                             <div class="custom-block bg-white shadow-lg">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Thursday</h5>
-                                                        <p class="mb-0" id="date-of-thursday">Today is Nov 27.</p>
+                                                <!--<a href="topics-detail.html">-->
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Thursday</h5>
+                                                            <p class="mb-0" id="date-of-thursday">Today is Nov 13.</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <img src="images/topics/thu.png" class="custom-block-image img-fluid" alt="">
+                                                    <img src="images/topics/thu.png" class="custom-block-image img-fluid" alt="">
+                                                <!--</a>-->
                                             </div>
                                         </div>
 
                                         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                                             <div class="custom-block bg-white shadow-lg">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Content</h5>
-                                                        <p class="mb-0"><b>Check the file ➡️</b></p>
+                                                <!--<a href="topics-detail.html">-->
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Content</h5>
+                                                            <p class="mb-0">Check out the file➡️</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <img src="images/topics/c04.png" class="custom-block-image img-fluid" alt="">
+                                                    <img src="images/topics/book.png" class="custom-block-image img-fluid" alt="">
+                                                <!--</a>-->
                                             </div>
                                         </div>
 
                                         <div class="col-lg-4 col-md-6 col-12">
-                                            <!-- <div class="custom-block bg-white shadow-lg">
+                                            <div class="custom-block bg-white shadow-lg thu-bf">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">File &amp; Link</h5>
-                                                        <p class="mb-0">File will be ready soon.</p>
+                                                        <p class="mb-0">Click to open file (if available)</p>
                                                     </div>
                                                 </div>
                                                 <img src="images/topics/soon.png" class="custom-block-image img-fluid" alt="">
-                                            </div>  -->
-
-                                            <div class="custom-block bg-white shadow-lg">
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">File &amp; Link</h5>
-                                                            <p class="mb-0">⬇️Click to open file⬇️</p>
-                                                        </div>
+                                            </div>
+                                            
+                                            <div class="custom-block bg-white shadow-lg thu-af is-hidden">
+                                                <div class="d-flex">
+                                                    <div>
+                                                        <h5 class="mb-2">File &amp; Link</h5>
+                                                        <p class="mb-0">⬇️Click to open file⬇️</p>
                                                     </div>
-                                                    <a href="https://docs.google.com/presentation/d/1bTQFbYbTLO5d10TP_hX4jg0YkP4pLzNANXBYmd3StOY/edit?usp=sharing"><img src="images/topics/ppt04.png" class="custom-block-image img-fluid" alt="">
+                                                </div>
+                                                <a id ="thu-link" href=""><img src="images/topics/ppt.png" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- end of Thur 04 Pane -->
+                                <!-- end of Thur Pane -->
                                 
-                                <!-- Fri Pane 05 -->
+                                <!-- Fri 05 Pane -->
                                 <div class="tab-pane fade" id="education-tab-pane" role="tabpanel" aria-labelledby="education-tab" tabindex="0">
                                     <div class="row">
                                         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
@@ -361,7 +378,7 @@
                                                     <div class="d-flex">
                                                         <div>
                                                             <h5 class="mb-2">Friday</h5>
-                                                            <p class="mb-0" id="date-of-friday">Today is Nov 28.</p>
+                                                            <p class="mb-0" id="date-of-friday">Today is Nov 14.</p>
                                                         </div>
                                                     </div>
                                                     <img src="images/topics/fri.png" class="custom-block-image img-fluid" alt="">
@@ -375,7 +392,7 @@
                                                     <div class="d-flex">
                                                         <div>
                                                             <h5 class="mb-2">Content</h5>
-                                                            <p class="mb-0"><b>Check the file ➡️</b></p>
+                                                            <p class="mb-0">Check out the file➡️</p>
                                                         </div>
                                                     </div>
                                                     <img src="images/topics/book.png" class="custom-block-image img-fluid" alt="">
@@ -384,31 +401,30 @@
                                         </div>
 
                                         <div class="col-lg-4 col-md-6 col-12">
-                                            <!-- <div class="custom-block bg-white shadow-lg">
+                                            <div class="custom-block bg-white shadow-lg fri-bf">
                                                 <div class="d-flex">
                                                     <div>
                                                         <h5 class="mb-2">File &amp; Link</h5>
-                                                        <p class="mb-0">File will be ready soon.</p>
+                                                        <p class="mb-0">Click to open file (if available)</p>
                                                     </div>
                                                 </div>
                                                 <img src="images/topics/soon.png" class="custom-block-image img-fluid" alt="">
-                                            </div> -->
+                                            </div>
                                             
-                                            <div class="custom-block bg-white shadow-lg">
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">File &amp; Link</h5>
-                                                            <p class="mb-0">⬇️Click to open Survey⬇️</p>
-                                                        </div>
+                                            <div class="custom-block bg-white shadow-lg fri-af is-hidden">
+                                                <div class="d-flex">
+                                                    <div>
+                                                        <h5 class="mb-2">File &amp; Link</h5>
+                                                        <p class="mb-0">⬇️Click to open file⬇️</p>
                                                     </div>
-                                                    <a href="https://docs.google.com/presentation/d/1-rpZIxPSgeQ95oAPglo10VT7YiY5aF928B3QVELfoP0/edit?usp=sharing"><img src="images/topics/ppt05.png" class="custom-block-image img-fluid" alt="">
+                                                </div>
+                                                <a id="fri-link" href=""><img src="images/topics/ppt05.png" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- end of Fri-05 Pane -->
-
+                                <!-- end of Fri Pane -->
                             </div>
                         </div>
                     </div>
@@ -504,35 +520,41 @@
         <script src="js/jquery.sticky.js"></script>
         <script src="js/click-scroll.js"></script>
         <script src="js/custom-date.js"></script>
+        <script>
+            // update the daily slides links according to json file
+            fetch('./data/slides-g09.json')
+                .then(response => response.json())
+                .then(data => {
+                    const herfs = data;
+                    for (const [key, value] of Object.entries(herfs)) {
+                        if (herfs[key]) {
+                            ready = true;
+                            const theLink = document.querySelector('#' + key);
+                            theLink.setAttribute('href', herfs[key]);
+                        } else {
+                            ready = false;
+                        }
+                        
+                        const selector01 = '.custom-block.bg-white.shadow-lg.' + key.split('-')[0] + '-bf';
+                        const selector02 = '.custom-block.bg-white.shadow-lg.' + key.split('-')[0] + '-af';
+                        
+                        function getElems(selector) {
+                            return Array.from(document.querySelectorAll(selector));
+                        }
+
+                        function updateVisibility(ready) {
+                            getElems(selector01).forEach(el => el.classList.toggle('is-hidden', !!ready));
+                            getElems(selector02).forEach(el => el.classList.toggle('is-hidden', !ready));
+                        }
+
+                        updateVisibility(ready);
+
+                    }
+                })
+                .catch(error => console.error('Error fetching data:', error));
+        </script>
 
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
